@@ -217,4 +217,6 @@ lf.addEventListener('submit',async e=>{
   try{const nm=document.getElementById('nm').value.trim().replace(/\s+/g,' ');if(!nm){msg.textContent='Ingresá tu nombre y apellido.';btn.disabled=false;btn.textContent='Entrar';return}const d=await unlock(document.getElementById('pw').value.trim());document.getElementById('lock').hidden=true;document.getElementById('app').hidden=false;boot(d)}
   catch(err){msg.textContent='Contraseña incorrecta. Revisala e intentá de nuevo.';btn.disabled=false;btn.textContent='Entrar'}
 });
-</script>
+</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHBSSL36H3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-EHBSSL36H3");</script>
+
